@@ -1,0 +1,5 @@
+com\reviewrestapi\dao\ReviewDAO.class
+com\reviewrestapi\controller\ReviewController.class
+com\reviewrestapi\model\Review.class
+com\reviewrestapi\repository\ReviewRepository.class
+com\reviewrestapi\ReviewApplication.class
