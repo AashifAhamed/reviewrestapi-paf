@@ -14,7 +14,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 
 @SuppressWarnings("deprecation")
 @Entity
-@Table(name="Reviews")
+@Table(name="reviews")
 @EntityListeners(AuditingEntityListener.class)
 public class Review {
 
