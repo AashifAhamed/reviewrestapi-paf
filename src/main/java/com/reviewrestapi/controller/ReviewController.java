@@ -24,7 +24,7 @@ public class ReviewController {
 
 	@Autowired
 	ReviewDAO dao;
-	
+//	create
 	@PostMapping("/reviews")
 	public Review createReview(@Valid @RequestBody Review r) {
 		return dao.save(r);
